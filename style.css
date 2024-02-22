@@ -1,0 +1,15 @@
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .element {
+    width: calc(50% - 10px); 
+    height: 50px; 
+    border: 1px solid black;
+    background-color: white; 
+    margin-bottom: 2px; 
+  }
